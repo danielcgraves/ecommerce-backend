@@ -1,5 +1,14 @@
-
+// require('mysql2');
 require('dotenv').config();
+
+// In case I need a mysql variable later...
+
+// const connection = mysql.createConnection({
+//   host: 'localhost',
+//   user: process.env.DB_USER,
+//   password: process.env.DB_PASSWORD,
+//   database: process.env.DB_NAME
+// });
 
 const Sequelize = require('sequelize');
 
